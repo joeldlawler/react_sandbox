@@ -12,9 +12,13 @@ class Movies extends Component {
   };
 
   render() {
+    const { length: count } = this.state.movies;
+
+    if (count === 0) return <p>There are no movies</p>;
+
     return (
       <React.Fragment>
-        <h1>Movies</h1>
+        <p>Showing {count} movies.</p>
         <table className="table">
           <thead>
             <tr>
