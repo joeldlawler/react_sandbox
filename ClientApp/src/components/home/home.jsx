@@ -6,7 +6,7 @@ export class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <h1>Hello, world!</h1>
+        <h1>Hi</h1>
       </React.Fragment>
     );
   }
