@@ -4,7 +4,7 @@ import { Layout } from "./components/shared/layout";
 import { Home } from "./components/home/home";
 import { FetchData } from "./components/weather/fetchData";
 
-import { Counters } from "./components/counters/counters";
+import { Counters } from "./components/counter/counters";
 import Movies from "./components/movies/movies";
 
 export default class App extends Component {
