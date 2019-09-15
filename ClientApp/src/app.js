@@ -3,7 +3,8 @@ import { Route } from "react-router";
 import { Layout } from "./components/shared/layout";
 import { Home } from "./components/home/home";
 import { FetchData } from "./components/weather/fetchData";
-import { Counter } from "./components/counter/counter";
+
+import { Counters } from "./components/counters/counters";
 import Movies from "./components/movies/movies";
 
 export default class App extends Component {
@@ -13,7 +14,7 @@ export default class App extends Component {
     return (
       <Layout>
         <Route exact path="/" component={Home} />
-        <Route path="/counter" component={Counter} />
+        <Route path="/counters" component={Counters} />
         <Route path="/fetch-data" component={FetchData} />
         <Route path="/movies" component={Movies} />
       </Layout>
